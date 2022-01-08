@@ -1,0 +1,24 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Deocoin
+GenericName=Deocoin wallet
+Name[uk]=Deocoin
+Name[ru]=Deocoin
+Name[pl]=Deocoin
+Name[be]=Deocoin
+Name[de]=Deocoin
+Name[es]=Deocoin
+Comment=Deocoin wallet
+Comment[uk]=Deocoin wallet
+Comment[ru]=Deocoin wallet
+Comment[pl]=Deocoin wallet
+Comment[be]=Deocoin wallet
+Comment[de]=Deocoin Brieftasche
+Comment[es]=Deocoin Monedero
+Exec=deocoin %U
+Terminal=false
+Type=Application
+Icon=deocoin
+MimeType=x-scheme-handler/deocoin;
+Categories=Office;Finance;
+Version=6.0.3
