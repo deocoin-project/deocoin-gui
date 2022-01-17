@@ -230,13 +230,13 @@
     <name>ConfirmSendDialog</name>
     <message>
         <location filename="../gui/ui/confirmsenddialog.ui" line="17"/>
-        <source>Confirm sending %1 QWC</source>
-        <translation>1% QWC送信を承認</translation>
+        <source>Confirm sending %1 DEC</source>
+        <translation>1% DEC送信を承認</translation>
     </message>
     <message>
         <location filename="../gui/ui/confirmsenddialog.ui" line="25"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 QWC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;%1 QWC&lt;/strong&gt;&lt;を送信してよろしいですか?/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 DEC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;%1 DEC&lt;/strong&gt;&lt;を送信してよろしいですか?/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../gui/ui/confirmsenddialog.ui" line="85"/>
@@ -318,12 +318,12 @@
     </message>
     <message>
         <location filename="../gui/ui/connectionsettingsdialog.ui" line="251"/>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 100 QWC.</source>
-        <translation type="unfinished">ウォレットは、ローカルまたはグローバルネットワークで実行されているリモートノードに接続されます。ノードを選択するか、IPアドレス、ドメイン名、ポートを指定してください。このモードでは、ウォレットはトランザクション毎に0.25%の手数料をそのノードに送付しますが、最大でも1QWCです。 {0.25%?} {100 ?}</translation>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 100 DEC.</source>
+        <translation type="unfinished">ウォレットは、ローカルまたはグローバルネットワークで実行されているリモートノードに接続されます。ノードを選択するか、IPアドレス、ドメイン名、ポートを指定してください。このモードでは、ウォレットはトランザクション毎に0.25%の手数料をそのノードに送付しますが、最大でも1DECです。 {0.25%?} {100 ?}</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 QWC.</source>
-        <translation type="vanished">ウォレットは、ローカルまたはグローバルネットワークで実行されているリモートノードに接続されます。ノードを選択するか、IPアドレス、ドメイン名、ポートを指定してください。このモードでは、ウォレットはトランザクション毎に0.25%の手数料をそのノードに送付しますが、最大でも1QWCです。</translation>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 DEC.</source>
+        <translation type="vanished">ウォレットは、ローカルまたはグローバルネットワークで実行されているリモートノードに接続されます。ノードを選択するか、IPアドレス、ドメイン名、ポートを指定してください。このモードでは、ウォレットはトランザクション毎に0.25%の手数料をそのノードに送付しますが、最大でも1DECです。</translation>
     </message>
 </context>
 <context>
@@ -1065,7 +1065,7 @@ Please wait...</source>
     </message>
     <message>
         <location filename="../gui/ui/optimizationsettingsdialog.ui" line="455"/>
-        <source>Wallet optimization is a background task performed in order to aggregate transactions outputs that are below optimization target into bigger ones. It allows to send larger amounts of QWC within one transaction. Wallet optimization is free for all users but takes some time.</source>
+        <source>Wallet optimization is a background task performed in order to aggregate transactions outputs that are below optimization target into bigger ones. It allows to send larger amounts of DEC within one transaction. Wallet optimization is free for all users but takes some time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1877,8 +1877,8 @@ Do you want to go to download page?</source>
     <name>WalletGui::ConfirmSendDialog</name>
     <message>
         <location filename="../gui/ConfirmSendDialog.cpp" line="21"/>
-        <source>Confirm sending %1 QWC</source>
-        <translation>%1 QWCの送信を確認</translation>
+        <source>Confirm sending %1 DEC</source>
+        <translation>%1 DECの送信を確認</translation>
     </message>
     <message>
         <location filename="../gui/ConfirmSendDialog.cpp" line="27"/>
@@ -1892,7 +1892,7 @@ Do you want to go to download page?</source>
     </message>
     <message>
         <location filename="../gui/ConfirmSendDialog.cpp" line="35"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want donate &lt;strong&gt;%1 QWC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want donate &lt;strong&gt;%1 DEC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -66,7 +66,7 @@ void Updater::checkForUpdate()
     {
         connect(manager, SIGNAL(finished(QNetworkReply*)),
                 this, SLOT(replyFinished(QNetworkReply*)));
-        manager->get(QNetworkRequest(QUrl(QWCCOIN_UPDATE_URL)));
+        manager->get(QNetworkRequest(QUrl(DECCOIN_UPDATE_URL)));
     }
 }
 

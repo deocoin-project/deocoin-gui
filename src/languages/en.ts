@@ -230,12 +230,12 @@
     <name>ConfirmSendDialog</name>
     <message>
         <location filename="../gui/ui/confirmsenddialog.ui" line="17"/>
-        <source>Confirm sending %1 QWC</source>
+        <source>Confirm sending %1 DEC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../gui/ui/confirmsenddialog.ui" line="25"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 QWC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 DEC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -318,7 +318,7 @@
     </message>
     <message>
         <location filename="../gui/ui/connectionsettingsdialog.ui" line="251"/>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 QWC.</source>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 DEC.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1666,7 +1666,7 @@ Do you want to go to download page?</source>
     <name>WalletGui::ConfirmSendDialog</name>
     <message>
         <location filename="../gui/ConfirmSendDialog.cpp" line="20"/>
-        <source>Confirm sending %1 QWC</source>
+        <source>Confirm sending %1 DEC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

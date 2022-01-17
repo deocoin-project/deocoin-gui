@@ -75,7 +75,7 @@ endif()
 
 set(PROJECT_DISPLAY_NAME "Deocoin-GUI")
 set(PROJECT_SHORT_NAME "qwcg")
-set(PROJECT_CURRENCY_TICKER "QWC")
+set(PROJECT_CURRENCY_TICKER "DEC")
 set(PROJECT_NAME "deocoin-gui")
 set(PROJECT_DESCRIPTION "Safe. Simple. Seamless. Secure.")
 set(PROJECT_VERSION "${PROJECT_GIT_TAG}")

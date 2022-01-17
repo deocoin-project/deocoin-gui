@@ -12,15 +12,15 @@ environment:
         Qt5_DIR: "C:/Qt/5.12/msvc2017_64/lib/cmake/Qt5"
     matrix:
         - Purpose: "WindowsDebugBuild"
-          QWC_GENERATOR_NAME: "Visual Studio 15 2017 Win64"
-          QWC_BUILD_TYPE: "Debug"
-          QWC_TOOLCHAIN_FILE_NAME: "cmake/polly/vs-15-2017-win64.cmake"
-          QWC_TESTS_REGEXP: "NONE"
+          DEC_GENERATOR_NAME: "Visual Studio 15 2017 Win64"
+          DEC_BUILD_TYPE: "Debug"
+          DEC_TOOLCHAIN_FILE_NAME: "cmake/polly/vs-15-2017-win64.cmake"
+          DEC_TESTS_REGEXP: "NONE"
         - Purpose: "WindowsReleaseBuild"
-          QWC_GENERATOR_NAME: "Visual Studio 15 2017 Win64"
-          QWC_BUILD_TYPE: "Release"
-          QWC_TOOLCHAIN_FILE_NAME: "cmake/polly/vs-15-2017-win64.cmake"
-          QWC_TESTS_REGEXP: "NONE"
+          DEC_GENERATOR_NAME: "Visual Studio 15 2017 Win64"
+          DEC_BUILD_TYPE: "Release"
+          DEC_TOOLCHAIN_FILE_NAME: "cmake/polly/vs-15-2017-win64.cmake"
+          DEC_TESTS_REGEXP: "NONE"
 
 install:
     - git submodule update --init --recursive
@@ -29,14 +29,14 @@ build_script:
     - md build
     - cd build
     - >
-        cmake -G "%QWC_GENERATOR_NAME%"
-        -DCMAKE_BUILD_TYPE=%QWC_BUILD_TYPE%
-        -DCMAKE_TOOLCHAIN_FILE=%QWC_TOOLCHAIN_FILE_NAME%
+        cmake -G "%DEC_GENERATOR_NAME%"
+        -DCMAKE_BUILD_TYPE=%DEC_BUILD_TYPE%
+        -DCMAKE_TOOLCHAIN_FILE=%DEC_TOOLCHAIN_FILE_NAME%
         -DBUILD_ALL:BOOL=TRUE
         ..
-    - cmake --build . --config %QWC_BUILD_TYPE%
-    - ctest -C %QWC_BUILD_TYPE% -R "%QWC_TESTS_REGEXP%" -V -j 2
-    - cpack -C %QWC_BUILD_TYPE%
+    - cmake --build . --config %DEC_BUILD_TYPE%
+    - ctest -C %DEC_BUILD_TYPE% -R "%DEC_TESTS_REGEXP%" -V -j 2
+    - cpack -C %DEC_BUILD_TYPE%
 
 artifacts:
     - path: build\*\deocoin-gui-*.exe
@@ -52,4 +52,4 @@ deploy:
     prerelease: true
     on:
         APPVEYOR_REPO_TAG: true
-        QWC_BUILD_TYPE: "Release"
+        DEC_BUILD_TYPE: "Release"

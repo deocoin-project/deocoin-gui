@@ -222,12 +222,12 @@
 <context>
     <name>ConfirmSendDialog</name>
     <message>
-        <source>Comfirm sending %1 QWC</source>
-        <translation type="vanished">Confirmer l&apos;envoi de %1 QWC</translation>
+        <source>Comfirm sending %1 DEC</source>
+        <translation type="vanished">Confirmer l&apos;envoi de %1 DEC</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 QWC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Êtes-vous sûr de vouloir envoyer &lt;strong&gt;%1 QWC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 DEC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Êtes-vous sûr de vouloir envoyer &lt;strong&gt;%1 DEC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -238,8 +238,8 @@
         <translation>Annuler</translation>
     </message>
     <message>
-        <source>Confirm sending %1 QWC</source>
-        <translation type="unfinished">Confirmer l&apos;envoi de %1 QWC</translation>
+        <source>Confirm sending %1 DEC</source>
+        <translation type="unfinished">Confirmer l&apos;envoi de %1 DEC</translation>
     </message>
 </context>
 <context>
@@ -297,12 +297,12 @@
         <translation>Supprimer le noeud</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 QWC.</source>
-        <translation type="vanished">Le portefeuille se connecte au noeud distant en cours d&apos;exécution sur un réseau local ou global. Veuillez sélectionner un noeud ou spécifier une adresse IP ou un nom de domaine et un port. Dans ce mode, le portefeuille envoie des frais de 0,25% de chaque transaction au nœud, mais pas plus de 1 QWC.</translation>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 DEC.</source>
+        <translation type="vanished">Le portefeuille se connecte au noeud distant en cours d&apos;exécution sur un réseau local ou global. Veuillez sélectionner un noeud ou spécifier une adresse IP ou un nom de domaine et un port. Dans ce mode, le portefeuille envoie des frais de 0,25% de chaque transaction au nœud, mais pas plus de 1 DEC.</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 100 QWC.</source>
-        <translation type="unfinished">Le portefeuille se connecte au noeud distant en cours d&apos;exécution sur un réseau local ou global. Veuillez sélectionner un noeud ou spécifier une adresse IP ou un nom de domaine et un port. Dans ce mode, le portefeuille envoie des frais de 0,25% de chaque transaction au nœud, mais pas plus de 1 QWC. {0.25%?} {100 ?}</translation>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 100 DEC.</source>
+        <translation type="unfinished">Le portefeuille se connecte au noeud distant en cours d&apos;exécution sur un réseau local ou global. Veuillez sélectionner un noeud ou spécifier une adresse IP ou un nom de domaine et un port. Dans ce mode, le portefeuille envoie des frais de 0,25% de chaque transaction au nœud, mais pas plus de 1 DEC. {0.25%?} {100 ?}</translation>
     </message>
 </context>
 <context>
@@ -983,7 +983,7 @@ S&apos;il vous plaît, patientez...</translation>
         <translation>Sauvegarder</translation>
     </message>
     <message>
-        <source>Wallet optimization is a background task performed in order to aggregate transactions outputs that are below optimization target into bigger ones. It allows to send larger amounts of QWC within one transaction. Wallet optimization is free for all users but takes some time.</source>
+        <source>Wallet optimization is a background task performed in order to aggregate transactions outputs that are below optimization target into bigger ones. It allows to send larger amounts of DEC within one transaction. Wallet optimization is free for all users but takes some time.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1682,8 +1682,8 @@ Voulez-vous aller à la page de téléchargement?</translation>
 <context>
     <name>WalletGui::ConfirmSendDialog</name>
     <message>
-        <source>Confirm sending %1 QWC</source>
-        <translation>Confirmer l&apos;envoi de %1 QWC</translation>
+        <source>Confirm sending %1 DEC</source>
+        <translation>Confirmer l&apos;envoi de %1 DEC</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Payment ID: %1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -1694,7 +1694,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Êtes-vous sûr de vouloir envoyer &lt;strong&gt;sans  Payment ID&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want donate &lt;strong&gt;%1 QWC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want donate &lt;strong&gt;%1 DEC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

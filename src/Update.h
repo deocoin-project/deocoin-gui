@@ -11,7 +11,7 @@
 #include <QNetworkReply>
 #include <QUrl>
 
-const static QString QWCCOIN_UPDATE_URL = "http://update.deocoin.org/files/update.txt";
+const static QString DECCOIN_UPDATE_URL = "http://update.deocoin.org/files/update.txt";
 
 class Updater : public QObject
 {

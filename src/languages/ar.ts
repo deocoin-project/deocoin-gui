@@ -254,13 +254,13 @@
     <name>ConfirmSendDialog</name>
     <message>
         <location filename="../gui/ui/confirmsenddialog.ui" line="17"/>
-        <source>Confirm sending %1 QWC</source>
-        <translation>تأكيد إرسال 1 % QWC</translation>
+        <source>Confirm sending %1 DEC</source>
+        <translation>تأكيد إرسال 1 % DEC</translation>
     </message>
     <message>
         <location filename="../gui/ui/confirmsenddialog.ui" line="25"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 QWC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>هل أنت متأكد من إرسال 1% QWC</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 DEC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>هل أنت متأكد من إرسال 1% DEC</translation>
     </message>
     <message>
         <location filename="../gui/ui/confirmsenddialog.ui" line="85"/>
@@ -344,25 +344,25 @@
     </message>
     <message>
         <location filename="../gui/ui/connectionsettingsdialog.ui" line="251"/>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 100 QWC.</source>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 100 DEC.</source>
         <translation type="unfinished">ستتصل المحفظة بريمون بعيد يعمل على شبكة عالمية أو محلية. الرجاء
 تحديد الوحدة الأساسية أو حدد عنوان الأي بي أو اسم المجال والمنفذ. وفي هذا
 الوضع، ترسل المحفظة رسوماً بنسبة 0.25% كرسوم عل كل معاملة تتم في الوحدة
-الأساسية، ولكن لا تزيد عن أكثر من 10 QWC.  {0.25%?} {100 ?}</translation>
+الأساسية، ولكن لا تزيد عن أكثر من 10 DEC.  {0.25%?} {100 ?}</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 QWC.</source>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 DEC.</source>
         <translation type="obsolete">ستتصل المحفظة بريمون بعيد يعمل على شبكة عالمية أو محلية. الرجاء
 تحديد الوحدة الأساسية أو حدد عنوان الأي بي أو اسم المجال والمنفذ. وفي هذا
 الوضع، ترسل المحفظة رسوماً بنسبة 0.25% كرسوم عل كل معاملة تتم في الوحدة
-الأساسية، ولكن لا تزيد عن أكثر من 1 QWC.</translation>
+الأساسية، ولكن لا تزيد عن أكثر من 1 DEC.</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 QWC.</source>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 DEC.</source>
         <translation type="vanished">ستتصل المحفظة بريمون بعيد يعمل على شبكة عالمية أو محلية. الرجاء
 تحديد الوحدة الأساسية أو حدد عنوان الأي بي أو اسم المجال والمنفذ. وفي هذا
 الوضع، ترسل المحفظة رسوماً بنسبة 0.25% كرسوم عل كل معاملة تتم في الوحدة
-الأساسية، ولكن لا تزيد عن أكثر من 10 QWC. </translation>
+الأساسية، ولكن لا تزيد عن أكثر من 10 DEC. </translation>
     </message>
 </context>
 <context>
@@ -1118,7 +1118,7 @@ Please wait...</source>
     </message>
     <message>
         <location filename="../gui/ui/optimizationsettingsdialog.ui" line="455"/>
-        <source>Wallet optimization is a background task performed in order to aggregate transactions outputs that are below optimization target into bigger ones. It allows to send larger amounts of QWC within one transaction. Wallet optimization is free for all users but takes some time.</source>
+        <source>Wallet optimization is a background task performed in order to aggregate transactions outputs that are below optimization target into bigger ones. It allows to send larger amounts of DEC within one transaction. Wallet optimization is free for all users but takes some time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1938,8 +1938,8 @@ Do you want to go to download page?</source>
     <name>WalletGui::ConfirmSendDialog</name>
     <message>
         <location filename="../gui/ConfirmSendDialog.cpp" line="21"/>
-        <source>Confirm sending %1 QWC</source>
-        <translation>تأكيد من إرسال 1% QWC</translation>
+        <source>Confirm sending %1 DEC</source>
+        <translation>تأكيد من إرسال 1% DEC</translation>
     </message>
     <message>
         <location filename="../gui/ConfirmSendDialog.cpp" line="27"/>
@@ -1953,7 +1953,7 @@ Do you want to go to download page?</source>
     </message>
     <message>
         <location filename="../gui/ConfirmSendDialog.cpp" line="35"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want donate &lt;strong&gt;%1 QWC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want donate &lt;strong&gt;%1 DEC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

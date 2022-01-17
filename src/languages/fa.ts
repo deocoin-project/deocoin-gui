@@ -206,12 +206,12 @@
 <context>
     <name>ConfirmSendDialog</name>
     <message>
-        <source>Confirm sending %1 QWC</source>
-        <translation>تایید ارسال %1 QWC</translation>
+        <source>Confirm sending %1 DEC</source>
+        <translation>تایید ارسال %1 DEC</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 QWC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;آیا برای ارسال این مقدار کربو مطمین هستید ؟ &lt;strong&gt;%1 QWC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 DEC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;آیا برای ارسال این مقدار کربو مطمین هستید ؟ &lt;strong&gt;%1 DEC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -277,11 +277,11 @@
         <translation>حذف سرور</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 QWC.</source>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 DEC.</source>
         <translation type="vanished">کیف پول به دایمون ریموت در حال اجرا در شبکه محلی و یا جهانی متصل می شود. لطفا نام سرور و یا آی پی آن را به همراه پورت انتخاب و یا وارد نمایید. در حالت در هر تراکنش شما 0.25 درصد کارمزد به اجرا کننده سرور می پردازید اما نه بیشتر از یک کربو.</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 100 QWC.</source>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 100 DEC.</source>
         <translation type="unfinished">کیف پول به دایمون ریموت در حال اجرا در شبکه محلی و یا جهانی متصل می شود. لطفا نام سرور و یا آی پی آن را به همراه پورت انتخاب و یا وارد نمایید. در حالت در هر تراکنش شما 0.25 درصد کارمزد به اجرا کننده سرور می پردازید اما نه بیشتر از یک کربو. {0.25%?} {100 ?}</translation>
     </message>
 </context>
@@ -963,7 +963,7 @@ Please wait...</source>
         <translation>ذخیره</translation>
     </message>
     <message>
-        <source>Wallet optimization is a background task performed in order to aggregate transactions outputs that are below optimization target into bigger ones. It allows to send larger amounts of QWC within one transaction. Wallet optimization is free for all users but takes some time.</source>
+        <source>Wallet optimization is a background task performed in order to aggregate transactions outputs that are below optimization target into bigger ones. It allows to send larger amounts of DEC within one transaction. Wallet optimization is free for all users but takes some time.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1658,8 +1658,8 @@ Do you want to go to download page?</source>
 <context>
     <name>WalletGui::ConfirmSendDialog</name>
     <message>
-        <source>تایید ارسال %1 QWC</source>
-        <translation type="vanished">تایید ارسال %1 QWC</translation>
+        <source>تایید ارسال %1 DEC</source>
+        <translation type="vanished">تایید ارسال %1 DEC</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Payment ID: %1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -1670,11 +1670,11 @@ Do you want to go to download page?</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;آیا مطمینید که میخواهید  &lt;strong&gt;sin کربو را بدون شناسه واریز ارسال کنید&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>Confirm sending %1 QWC</source>
-        <translation type="unfinished">تایید ارسال %1 QWC</translation>
+        <source>Confirm sending %1 DEC</source>
+        <translation type="unfinished">تایید ارسال %1 DEC</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want donate &lt;strong&gt;%1 QWC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want donate &lt;strong&gt;%1 DEC&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
